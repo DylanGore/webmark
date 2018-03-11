@@ -1,0 +1,77 @@
+{
+  "bookmarkCollection": [
+    {
+      "id": "1",
+      "title": "HTML Learning Resources",
+      "links": [
+        {
+          "id": "4",
+          "title": "W3 Schools",
+          "link": "https://www.w3schools.com/html/"
+        },
+        {
+          "id": "5",
+          "title": "Mozilla Developer Network",
+          "link": "https://developer.mozilla.org/en-US/docs/Learn/HTML"
+        },
+        {
+          "id": "6",
+          "title": "Code Adcadamy",
+          "link": "https://www.codecademy.com/learn/learn-html"
+        },
+        {
+          "id": "7",
+          "title": "HTML Validator",
+          "link": "https://validator.w3.org/"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "CSS Learning Resources",
+      "links": [
+        {
+          "id": "8",
+          "title": "W3 Schools",
+          "link": "https://www.w3schools.com/css/"
+        },
+        {
+          "id": "9",
+          "title": "Mozilla Developer Network",
+          "link": "https://developer.mozilla.org/en-US/docs/Learn/CSS"
+        },
+        {
+          "id": "10",
+          "title": "CSS Validator",
+          "link": "https://jigsaw.w3.org/css-validator/"
+        },
+        {
+          "id": "11",
+          "title": "Semantic UI",
+          "link": "https://semantic-ui.com/"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Javascript Learning Resources",
+      "links": [
+        {
+          "id": "12",
+          "title": "W3 Schools",
+          "link": "https://www.w3schools.com/js/"
+        },
+        {
+          "id": "13",
+          "title": "JavaScript Validator",
+          "link": "https://codebeautify.org/jsvalidate"
+        },
+        {
+          "id": "14",
+          "title": "JQuery",
+          "link": "https://jquery.com/"
+        }
+      ]
+    }
+  ]
+}
