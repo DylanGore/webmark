@@ -1,8 +1,18 @@
 <nav class="ui menu">
-  <header class="ui header item"> <a href="/"> Webmark v2 </a></header>
+  <header class="ui header item brand">
+    <a href="/">
+      <i class="icon bookmark"></i> Webmark
+    </a>
+  </header>
+  <div class="left menu">
+    <a id="dashboard" class="item" href="/dashboard"><i class="icon cogs"></i> Bookmarks Dashboard  </a>
+    <a id="about" class="item" href="/about"><i class="icon info"></i> About </a>
+  </div>
   <div class="right menu">
-    <a id="dashboard" class="item" href="/dashboard"> Bookmarks Dashboard  </a>
-    <a id="about" class="item" href="/about"> About </a>
+    <span class="item username"><i class="icon user"></i> {{fullname}}</span>
+    <div id="logout" class="item">
+      <a class="ui red button" href="/logout"> Log Out</a>
+    </div>
   </div>
 </nav>
 

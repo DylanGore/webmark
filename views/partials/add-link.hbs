@@ -1,0 +1,25 @@
+<form class="ui teal segment form" action="/bookmarks/{{bookmarkList.id}}/addlink" method="POST" enctype="multipart/form-data">
+  <h3 class="ui sub dividing header">
+    Add a new link
+  </h3>
+  <div class="four fields">
+    <div class="field">
+      <label>Title</label>
+      <input placeholder="Title" type="text" name="title" required>
+    </div>
+    <div class="field">
+      <label>Link</label>
+      <input placeholder="URL" type="url" name="link" required>
+    </div>
+    <div class="field">
+      <label>Summary</label>
+      <input placeholder="Summary" type="text" name="summary" required>
+    </div>
+    <div class="field">
+      <label>Thumbnail</label>
+      <input type="file" name="picture" accept="image/*" required>
+    </div>
+    
+  </div>
+  <button class="ui teal submit button">Add Link</button>
+</form>

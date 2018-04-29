@@ -1,0 +1,24 @@
+{
+  "messageCollection": [
+    {
+      "id": "698292ca-d56c-4675-9905-b80c26d62b51",
+      "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae felis sollicitudin, sagittis nibh sit amet, rhoncus lacus.",
+      "user": "Dylan Gore"
+    },
+    {
+      "id": "ac2d6582-e650-49f7-9dc6-575132c3e656",
+      "message": "Fusce facilisis, arcu et rutrum feugiat, est mi convallis risus, ac molestie magna justo non sem.        ",
+      "user": "Homer Simpson"
+    },
+    {
+      "id": "9c903eef-bc07-4e0e-bd9a-0c954e3510c5",
+      "message": "Praesent id varius eros, eget tristique augue. Nullam egestas et tortor nec ornare.        ",
+      "user": "Marge Simpson"
+    },
+    {
+      "id": "1036faa8-3f7a-42d8-b3da-7561b5fdb0ec",
+      "message": "well boy",
+      "user": "Marge Simpson"
+    }
+  ]
+}

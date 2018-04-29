@@ -1,0 +1,17 @@
+{{> menu-welcome id="login" }}
+
+<form class="ui teal segment form" action="/authenticate" method="POST">
+  <h2 class="ui header">Log In</h2>
+  <div class="field">
+    <label>E-mail Address</label>
+    <input type="email" placeholder="E-Mail Address" name="email" autofocus required>
+  </div>
+  <div class="field">
+    <label>Password</label>
+    <input type="password" placeholder="Password" name="password" required>
+  </div>
+  <button class="ui teal submit button">Login</button>
+  <p>
+    Don't have an account yet? <a href="/signup" title="Create an account">Create a new one</a>.
+  </p>
+</form>

@@ -1,8 +1,8 @@
-# Web App Development CA - Webmark V2
+# Web App Development CA 2 - Webmark V3
 ---
 ## By Dylan Gore (20081224)
 ---
 
-A continuous assesment project for the Web App Development Module
+The second continuous assesment assignment for the Web App Development Module.
 
-**Result:** 75%
+**Result:** Pending
