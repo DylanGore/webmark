@@ -4,6 +4,7 @@ const express = require('express');
 const logger = require('./utils/logger');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
+const fileUpload = require('express-fileupload');
 
 const app = express();
 app.use(cookieParser());
@@ -15,10 +16,11 @@ app.engine('.hbs', exphbs({
   defaultLayout: 'main',
 }));
 app.set('view engine', '.hbs');
+app.use(fileUpload());
 
 const routes = require('./routes');
 app.use('/', routes);
 
 const listener = app.listen(process.env.PORT || 4000, function () {
-  logger.info(`dylangore-ca-1-v2 started on port ${listener.address().port}`);
+  logger.info(`dylangore-ca-2 started on port ${listener.address().port}`);
 });

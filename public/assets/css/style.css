@@ -1,0 +1,38 @@
+.brand, .brand a:link, .brand a:visited, .brand a:active{
+  text-transform: uppercase !important;
+  color: #5db7de !important;
+}
+
+.brand a:hover{
+  color: #00b5ad !important;
+}
+
+.username{
+  font-weight:bold !important;
+  text-transform: capitalize !important;
+}
+
+.logout{
+  padding-top:20px;
+  padding-right:5px;
+  line-height:20px;
+  color: #ff0000;
+}
+
+.card-image{
+  background-color: #ffffff !important;
+  /* height: 120px !important; */
+}
+
+.card-image img{
+  width: 100% !important;
+  max-height: 100% !important;
+}
+
+body{
+  background-color: #5db7de;
+}
+
+main#mainbody{
+  padding: 1%;
+}

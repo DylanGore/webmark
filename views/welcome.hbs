@@ -1,11 +1,15 @@
-{{> menu}}
+{{#if loggedin}}
+  {{> menu}}
+{{else}}
+  {{> menu-welcome}}
+{{/if}}
 
 <section class="ui center aligned middle aligned segment">
-  <h1 class="ui header">Webmark | <small> Version 2 </small></h1>
+  <h1 class="ui header">Webmark | <small> Version 3 </small></h1>
   <h4>By Dylan Gore (200812224)</h4>
   
   <hr>
-  <img src="https://www.rd.usda.gov/files/crwordlelep.png" alt="Welcome">
+  <img class="ui aligned middle huge image" src="https://cdn.glitch.com/2852c9b7-f19a-4a87-a8f2-59ac6cbf11cd%2Fwelcome.png?1524522246419" alt="Welcome">
   <hr>
   
 <p>
@@ -13,5 +17,21 @@
   <i class="css3 alternate icon"></i> and <b>JavaScript</b> <i class="js icon"></i>. When you click on a link from the bookmark list, it will open in a new window. Unwanted links can be deleated from the list.
 </p>
   <br>
-  <a class="ui button" href="/dashboard">View Bookmarks Dashboard</a>
+  {{#if loggedin}}
+    <a class="ui button teal" href="/dashboard">View Bookmarks Dashboard</a>
+  {{else}}
+    <a class="ui button green" href="/login">Log In</a>
+    <a class="ui button teal" href="/signup">Create a New Account</a>
+  {{/if}}
+</section>
+
+<section class="ui center aligned segment">
+  <div class="ui horizontal statistic">
+    <div class="value">
+      <i class="icon bookmark"></i> {{totalLinks}}
+    </div>
+    <div class="label">
+      Total Bookmarks Stored
+    </div>
+  </div>
 </section>

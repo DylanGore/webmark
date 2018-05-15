@@ -1,0 +1,26 @@
+<div class="ui minimal comments">
+  {{#each messages}}
+      <div class="comment">
+        <div class="avatar">
+          <img class="ui middle aligned image" src="https://cdn.glitch.com/2852c9b7-f19a-4a87-a8f2-59ac6cbf11cd%2Favatar.png?1524512648083" alt="{{user}}" title="{{user}}">
+        </div>
+        <div class="content">
+          <span class="author">{{user}}</span>
+          <div class="text">
+            {{message}}
+          </div>
+          <div class="actions">
+            <a href="/about/deletemessage/{{id}}"><i class="icon trash" title="Delete Message"></i> Delete</a>
+          </div>
+        </div>
+      </div>
+  {{/each}}
+</div>
+
+<form class="ui reply form" action="/about/addmessage" method="POST">
+  <div class="field">
+    <label>Add a Message</label>
+    <textarea name="message" placeholder="Lorem ipsum dolor sit amet..." rows="4" required></textarea>
+  </div>
+  <button class="ui teal submit button"><i class="icon envelope"></i> Send Message</button>
+</form>

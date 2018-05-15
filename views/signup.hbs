@@ -1,0 +1,27 @@
+{{> menu-welcome id="register"}}
+
+<form class="ui teal segment form" action="/register" method="POST">
+  <h2 class="ui header">Create a New Account</h2>
+  <div class="two fields">
+    <div class="field">
+      <label>First Name</label>
+      <input placeholder="First Name" type="text"  name="firstName" autofocus required>
+    </div>
+    <div class="field">
+      <label>Last Name</label>
+      <input placeholder="Last Name" type="text"  name="lastName" required>
+    </div>
+  </div>
+  <div class="field">
+    <label>E-mail Address</label>
+    <input placeholder="E-mail Address" type="email" name="email" required>
+  </div>
+  <div class="field">
+    <label>Password</label>
+    <input type="password" placeholder="Password" name="password" required>
+  </div>
+  <button class="ui teal submit button">Submit</button>
+  <p>
+     Already have an account? <a href="/login" title="Login">Log in</a>.
+  </p>
+</form>
